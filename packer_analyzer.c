@@ -1,16 +1,15 @@
 /*
 ############################################################################################
-# File:        [File Name]
-# Author:      [Author Name]
-# Date:        [Date of Creation]
-# Description: [Brief Description of the Program's Purpose]
+# File:             packet_analyzer.c
+# Author:           Smeet Raj
+# Date:             17th Feb 2024
+# Description:      The packet analyzer captures TCP packets, analyzes them, 
+#                   and calculates various parameters such as throughput, retransmitted packets, and packet loss rate.
 # 
-# Copyright (c) [Year] [Author Name]
+# Copyright (c) 2024 Smeet Raj
 # All rights reserved.
 ############################################################################################
 */
-
-
 
 //###############################################################################
 //  INCLUDES
@@ -32,7 +31,7 @@
 //  MACROS
 //###############################################################################
 
-#define SOCK_PATH "/tmp/packet_capture_socket"
+
 #define MAX_PACKETS_TO_DISPLAY 10
 #define OUTPUT_FILE "captured_packets.txt"
 
